@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T00:09:06.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="txqwHppo4y0vUr038A5h" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-25T01:58:32.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="v2Kb7OQKwsmkQpsKM-hi" version="21.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,16 +338,22 @@
         <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-10" value="Transfer Market Search" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-6">
           <mxGeometry x="150" y="20" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-14" value="Transfer Market Results - List View" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-6">
+          <mxGeometry x="270" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-7" value="Market" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5">
           <mxGeometry x="20" y="110" width="460" height="110" as="geometry" />
         </mxCell>
         <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-12" value="SearchPlayer" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-7">
-          <mxGeometry x="135" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="152.5" y="20" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-8" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5">
           <mxGeometry x="20" y="220" width="460" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5" source="P_NRpdEKu5_7Fk1rz_cQ-10" target="P_NRpdEKu5_7Fk1rz_cQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5" source="P_NRpdEKu5_7Fk1rz_cQ-12" target="P_NRpdEKu5_7Fk1rz_cQ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
