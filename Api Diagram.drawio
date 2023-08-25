@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T23:41:44.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pjHn23ZbdLBu2Kteml-W" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-25T00:09:06.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="txqwHppo4y0vUr038A5h" version="21.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,10 +319,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_kZT7fiPkjxDRAFENqIP" name="Snipe">
-    <mxGraphModel dx="1687" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-5" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="480" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-6" value="PinEvent" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5">
+          <mxGeometry x="20" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P_NRpdEKu5_7Fk1rz_cQ-6" source="P_NRpdEKu5_7Fk1rz_cQ-9" target="P_NRpdEKu5_7Fk1rz_cQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-9" value="Hub Transfer" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-6">
+          <mxGeometry x="40" y="20" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-10" value="Transfer Market Search" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-6">
+          <mxGeometry x="150" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-7" value="Market" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5">
+          <mxGeometry x="20" y="110" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-12" value="SearchPlayer" style="whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-7">
+          <mxGeometry x="135" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-8" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5">
+          <mxGeometry x="20" y="220" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P_NRpdEKu5_7Fk1rz_cQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P_NRpdEKu5_7Fk1rz_cQ-5" source="P_NRpdEKu5_7Fk1rz_cQ-10" target="P_NRpdEKu5_7Fk1rz_cQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
